@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+
+    <form>
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <fieldset>
+          <legend>Gender</legend>
+          <label><input type="radio" name="gender" value="male" />Male</label>
+          <label
+            ><input type="radio" name="gender" value="female" />Female</label
+          >
+          <label
+            ><input type="radio" name="gender" value="Nan" />Prefer no to
+            say</label
+          >
+        </fieldset>
+      </div>
+      <p>Choose your favorites subjects:</p>
+
+      <div>
+        <input type="checkbox" id="math" name="math" checked />
+        <label for="math">math</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="english" name="english" />
+        <label for="english">english</label>
+      </div>
+      <div>
+        <input type="checkbox" id="english" name="english" />
+        <label for="english">english</label>
+      </div>
+      <div>
+        <input type="checkbox" id="english" name="english" />
+        <label for="english">english</label>
+      </div>
+      <div>
+        <input type="submit" value="Submit!" />
+      </div>
+    </form>
+  </body>
+</html>

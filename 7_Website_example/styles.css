@@ -1,0 +1,197 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header div {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+header div a {
+  text-decoration: none;
+  color: red;
+}
+
+header div h1 {
+  margin: 0;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+main {
+}
+
+#banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner div img {
+  width: 400px;
+}
+
+.banner-content {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 50px;
+  text-align: right;
+}
+
+#buy {
+  background-color: red;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+#buy:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+#description {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#description .container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#description .container h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#description .container p {
+  font-size: 26px;
+  text-align: center;
+  max-width: 500px;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 100px;
+}
+
+.gallery-box {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.gallery-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.gallery-content {
+  margin: 0 40px;
+}
+
+.gallery-content h3 {
+  font-size: 28px;
+}
+
+.gallery-content p {
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.gallery-box:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+footer div p {
+  text-align: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+#contact .container .form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item label {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.form-item input {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+  width: 300px;
+}
+
+.form-item textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+  width: 300px;
+}
+
+#contact .container button {
+  background-color: red;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
